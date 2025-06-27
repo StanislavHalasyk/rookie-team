@@ -1,0 +1,48 @@
+.feedbacks {
+  background-color: #ebf8ed;
+  padding: 64px 0;
+}
+
+.feedbacks-title {
+  text-align: center;
+  font-size: 28px;
+  line-height: 1.2;
+  margin-bottom: 80px;
+}
+
+.feedbacks-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.feedbacks-item {
+  background-color: #ffffff;
+  padding: 24px;
+  width: 310px;
+  border-radius: 8px;
+}
+
+.feedbacks-rating {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.star-icon {
+  fill: #00b068;
+}
+
+.feedbacks-text {
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.feedbacks-author {
+  font-weight: 700;
+  font-size: 14px;
+  color: #2e2f42;
+}
