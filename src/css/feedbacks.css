@@ -32,6 +32,10 @@
   fill: #00b068;
 }
 
+.star-icon.inactive {
+  fill: #2e2f42; /* або просто нічого — буде чорна за замовчуванням */
+}
+
 .feedbacks-text {
   margin-bottom: 12px;
   font-size: 14px;
