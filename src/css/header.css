@@ -123,12 +123,10 @@
     line-height: 160%;
     color: var(--color-scheme-2-text);
     text-align: left;
-}
-
-.nav-list-burger a {
-    color: var(--text-color);
+    margin-bottom: 64px;
     text-decoration: none;
 }
+
 
 .nav-list-burger a:hover,
 .nav-list-burger a:focus {
@@ -176,7 +174,9 @@
         
         }
 
-
+        .nav-list-burger {
+            margin-bottom: 32px;
+        }
 
 
 }
