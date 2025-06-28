@@ -101,7 +101,7 @@
     }
 
     .hero-button-container {
-        margin-bottom: 24px;
+        margin-bottom: 0;
     }
 
     .hero-button {
@@ -137,10 +137,6 @@
     .hero-explain {
         font-size: 18px;
         margin-bottom: 32px;
-    }
-
-    .hero-button-container {
-        margin-bottom: 24px;
     }
 
     .hero-button {
