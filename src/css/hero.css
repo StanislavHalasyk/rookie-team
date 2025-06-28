@@ -1,0 +1,158 @@
+.hero {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #ebf8ed;
+}
+
+.hero-title {
+    margin-bottom: 20px;
+}
+
+.hero-title-style {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: #030a06;
+    text-align: start;
+}
+
+.hero-explain {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.hero-button-container {
+    margin-bottom: 24px;
+}
+
+.hero-button {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    padding: 12px;
+    background-color: #030a06;
+    background-repeat: no-repeat;
+
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #030a06;
+    transition: background-color 0.3s ease;
+    outline: none;
+}
+
+.hero-button:hover {
+    background-color: #ebf8ed;
+    color: #030a06;
+}
+
+.hero-button:focus {
+    border: none;
+
+}
+
+.hero-container-img {
+    overflow: hidden;
+    border-radius: 40px;
+    background-color: #ebf8ed;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+
+    .hero {
+        padding-top: 32px;
+    }
+
+    .hero-ecotone {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hero-ecotone-text-btn {
+        display: flex;
+        gap: 24px;
+        margin-bottom: 20px;
+    }
+
+    .hero-title {
+        margin-bottom: 0;
+    }
+
+    .hero-title-style {
+        width: 340px;
+    }
+
+    .hero-explain {
+        font-size: 18px;
+        margin-bottom: 32px;
+    }
+
+    .hero-button-container {
+        margin-bottom: 24px;
+    }
+
+    .hero-button {
+        width: 148px;
+        height: 50px;
+        padding: 12px;
+    }
+
+
+    .hero-container-img {
+        overflow: hidden;
+        border-radius: 40px;
+        background-color: #ebf8ed;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-ecotone {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hero-ecotone-text-btn {
+        gap: 32px;
+    }
+
+    .hero-title-style {
+        width: 640px;
+        font-size: 56px;
+    }
+
+    .hero-explain {
+        font-size: 18px;
+        margin-bottom: 32px;
+    }
+
+    .hero-button-container {
+        margin-bottom: 24px;
+    }
+
+    .hero-button {
+        width: 148px;
+        height: 50px;
+        padding: 12px;
+    }
+
+
+    .hero-container-img {
+        overflow: hidden;
+        border-radius: 40px;
+        background-color: #ebf8ed;
+    }
+}
