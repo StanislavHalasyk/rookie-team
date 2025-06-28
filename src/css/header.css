@@ -18,7 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 20px;
+    height: 64;
     min-width: 320px;
 }
 
@@ -46,13 +46,9 @@
 
 .btn-burger {
     position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        top: 24px;
-        right: 24px;
-        width: 21px;
-        height: 16px;
+        right: 20px;
+        width: 32px;
+        height: 32px;
     cursor: pointer;
 }
 
@@ -159,7 +155,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 20px 20px;
+        padding-bottom: 23px;
     }
 
     .icon-logo {
@@ -171,7 +167,7 @@
     }
 
         .btn-burger {
-            top: 26px;
+            position: absolute;
             right: 26px;
             width: 16px;
             height: 12px;
