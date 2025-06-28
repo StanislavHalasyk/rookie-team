@@ -1,0 +1,235 @@
+.support-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.support-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  color: var(--color-scheme-1-text);
+  margin-bottom: 24px;
+  max-width: 288px;
+}
+
+.support-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: var(--color-scheme-1-text);
+  margin-bottom: 32px;
+  max-width: 288px;
+}
+
+.support-form-text {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--color-scheme-1-text);
+  margin-bottom: 8px;
+}
+
+.support-form-input {
+  border: 1px solid var(--opacity-neutral-darkest-15);
+  border-radius: 6px;
+  padding: 8px 12px;
+  height: 42px;
+  background-color: var(--opacity-neutral-darkest-5);
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--color-scheme-2-text);
+  outline: none;
+  width: 288px;
+}
+
+.support-textarea {
+  height: 180px;
+  border: 1px solid var(--opacity-neutral-darkest-15);
+  border-radius: 6px;
+  padding: 12px;
+  background: var(--opacity-neutral-darkest-5);
+  outline: none;
+  resize: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--color-scheme-2-text);
+  width: 288px;
+  margin-bottom: 24px;
+}
+
+.support-form-input::placeholder,
+.support-textarea::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--opacity-neutral-darkest-60);
+}
+
+/* стилізація інпута при не валідному значенні */
+.support-form-input:not(:placeholder-shown):invalid {
+  border-color: var(--color-error-red);
+}
+
+.text-valid,
+.text-invalid {
+  font-size: 12px;
+  line-height: 160%;
+  display: none;
+  margin-top: -24px;
+}
+
+.text-valid {
+  color: green;
+}
+
+.text-invalid {
+  color: var(--color-error-red);
+}
+
+/* стилізація інформаційного текста при валідному значенні в інпуті */
+.support-form-input:not(:placeholder-shown):valid ~ .text-valid {
+  display: block;
+}
+
+/* стилізація інформаційного текста при не валідному значенні в інпуті */
+.support-form-input:not(:placeholder-shown):invalid ~ .text-invalid {
+  display: block;
+}
+
+.support-form-input:not(:placeholder-shown):valid {
+  border-color: green;
+}
+
+.support-btn {
+  display: block;
+  border: 1px solid var(--color-neutral-darkest);
+  border-radius: 6px;
+  padding: 12px 0px;
+  min-width: 288px;
+  height: 50px;
+  background-color: var(--color-neutral-darkest);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--color-white);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.support-btn:hover,
+.support-btn:focus {
+  color: var(--color-neutral-darkest);
+  background-color: transparent;
+}
+
+.support-container-images {
+  background-image: url(/img/support/support-mobile-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  width: 288px;
+  height: 428px;
+  border-radius: 40px;
+}
+
+@media screen and (min-resolution: 2x) {
+  .support-container-images {
+    background-image: url(/img/support/support-mobile@2x-min.jpg);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .support-container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    gap: 24px;
+  }
+
+  .support-title {
+    max-width: 468px;
+  }
+
+  .support-btn {
+    min-width: 249px;
+  }
+
+  .support-subtitle {
+    max-width: 704px;
+  }
+
+  .support-form-text {
+  }
+
+  .support-form-input {
+    width: 704px;
+  }
+
+  .support-textarea {
+    width: 704px;
+  }
+
+  .support-container-images {
+    background-image: url(/img/support/support-tablet-min.jpg);
+    width: 704px;
+    height: 428px;
+  }
+
+  @media screen and (min-resolution: 2x) {
+    .support-container-images {
+      background-image: url(/img/support/support-tablet@2x-min.jpg);
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .support-container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .support-title {
+    font-size: 48px;
+    line-height: 120%;
+    max-width: 644px;
+  }
+
+  .support-subtitle {
+    max-width: 644px;
+  }
+
+  .support-form-input {
+    width: 644px;
+  }
+
+  .support-textarea {
+    width: 644px;
+  }
+
+  .support-btn {
+    min-width: 198px;
+  }
+
+  .support-container-images {
+    background-image: url(/img/support/support-desctop-min.jpg);
+    width: 644px;
+    height: 767px;
+  }
+
+  @media screen and (min-resolution: 2x) {
+    .support-container-images {
+      background-image: url(/img/support/support-desctop@2x-min.jpg);
+    }
+  }
+}
