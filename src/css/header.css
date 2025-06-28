@@ -22,10 +22,13 @@
     min-width: 320px;
 }
 
-.logo-link {
-    display: flex;
-    align-items: center;
+.logo-burger {
+    position: absolute;
+    top: 25px;
 }
+
+
+
 .icon-logo {
     width: 84px;
     height: 36px;
@@ -95,9 +98,6 @@
 
 .close_button {
     position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         top: 25px;
         right: 25px;
         width: 15px;
