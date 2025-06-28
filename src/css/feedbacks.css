@@ -58,3 +58,28 @@
   margin-bottom: 32px;
   color: #000;
 }
+
+@media screen and (min-width: 768px) {
+  .feedbacks {
+    padding: 96px 0;
+  }
+
+  .feedbacks-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+  }
+
+  .feedbacks-item {
+    flex-basis: calc((100% - 24px) / 2);
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .feedbacks-item {
+    flex-basis: calc((100% - 48px) / 3);
+    gap: 24px;
+  }
+}
