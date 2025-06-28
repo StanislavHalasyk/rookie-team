@@ -1,5 +1,5 @@
 .about {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/about/about-mobiler-min.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/about/about-mobiler-min.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -11,7 +11,7 @@
 
 @media (min-resolution:2x) {
     .about {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/about/about-mobiler@2x-min.jpg);
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/about/about-mobiler@2x-min.jpg);
     }
 }
 
@@ -45,7 +45,7 @@
 
 @media only screen and (min-width: 768px) {
     .about {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/about/about-tablet-min.jpg);
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/about/about-tablet-min.jpg);
         max-width: 768px;
         padding: 80px 0;
     }
@@ -66,7 +66,7 @@
 
     @media (min-resolution:2x) {
         .about {
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/about/about-tablet@2x-min.jpg);
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/about/about-tablet@2x-min.jpg);
         }
     }
 }
@@ -74,7 +74,7 @@
 
 @media only screen and (min-width: 1440px) {
     .about {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/about/about-desctop-min.jpg);
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/about/about-desctop-min.jpg);
         max-width: 1440px;
         padding-top: 112px;
         padding-bottom: 94px;
@@ -89,7 +89,7 @@
 
     @media (min-resolution:2x) {
         .about {
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/about/about-desctop@2x-min.jpg);
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/about/about-desctop@2x-min.jpg);
         }
     }
 }
