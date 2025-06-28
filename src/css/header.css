@@ -56,6 +56,10 @@
     cursor: pointer;
 }
 
+.icon-burger {
+    background-color: var(--color-scheme-2-background);
+}
+
 .burger-menu {
     position: fixed;
     top: 0;
