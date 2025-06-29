@@ -1,95 +1,129 @@
 .about {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/about/about-mobiler-min.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    margin: 0 auto;
-    max-width: 320px;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(/img/about/about-mobiler-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 0 auto;
+  max-width: 320px;
 
-    padding: 64px 0;
+  padding: 64px 0;
 }
 
-@media (min-resolution:2x) {
-    .about {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/about/about-mobiler@2x-min.jpg);
-    }
+@media (min-resolution: 2x) {
+  .about {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(/img/about/about-mobiler@2x-min.jpg);
+  }
 }
 
 .about-title {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-    color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
 
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .about-subtitle {
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: 0.01em;
-    text-align: center;
-    color: #fff;
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #fff;
 
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .about-text {
-    line-height: 1.6;
-    text-align: center;
-    color: #fff;
+  line-height: 1.6;
+  text-align: center;
+  color: #fff;
 }
 
 @media only screen and (min-width: 768px) {
+  .about {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(/img/about/about-tablet-min.jpg);
+    max-width: 768px;
+    padding: 80px 0;
+  }
+
+  .about-title {
+    margin-bottom: 16px;
+  }
+
+  .about-subtitle {
+    margin-bottom: 24px;
+  }
+
+  .about-text {
+    font-size: 18px;
+    width: 573px;
+    margin: 0 auto;
+  }
+
+  @media (min-resolution: 2x) {
     .about {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/about/about-tablet-min.jpg);
-        max-width: 768px;
-        padding: 80px 0;
+      background-image: linear-gradient(
+          to top,
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0.4)
+        ),
+        url(/img/about/about-tablet@2x-min.jpg);
     }
-
-    .about-title {
-        margin-bottom: 16px;
-    }
-
-    .about-subtitle {
-        margin-bottom: 24px;
-    }
-
-    .about-text {
-        font-size: 18px;
-        width: 573px;
-        margin: 0 auto;
-    }
-
-    @media (min-resolution:2x) {
-        .about {
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/about/about-tablet@2x-min.jpg);
-        }
-    }
+  }
 }
 
-
 @media only screen and (min-width: 1440px) {
+  .about {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(/img/about/about-desctop-min.jpg);
+    max-width: 1440px;
+    padding-top: 112px;
+    padding-bottom: 94px;
+  }
+
+  .about-title {
+    margin-bottom: 24px;
+  }
+
+  .about-subtitle {
+    font-size: 56px;
+
+    width: 629px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+
+  @media (min-resolution: 2x) {
     .about {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/about/about-desctop-min.jpg);
-        max-width: 1440px;
-        margin-top: 112px;
-        margin-bottom: 94px;
+      background-image: linear-gradient(
+          to top,
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0.4)
+        ),
+        url(/img/about/about-desctop@2x-min.jpg);
     }
-
-    .about-subtitle {
-        font-size: 56px;
-
-        width: 629px;
-        margin: 0 auto;
-    }
-
-    @media (min-resolution:2x) {
-        .about {
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/about/about-desctop@2x-min.jpg);
-        }
-    }
+  }
 }
