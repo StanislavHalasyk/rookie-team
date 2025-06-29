@@ -58,6 +58,10 @@
     opacity: 0.5;
 }
 
+.hero-button:active {
+    background-color: #113916;
+    opacity: 0.6;
+}
 
 .hero-container-img {
     overflow: hidden;
