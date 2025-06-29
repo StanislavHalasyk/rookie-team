@@ -49,19 +49,15 @@
     color: #fff;
     cursor: pointer;
     border: 1px solid #030a06;
-    transition: background-color 0.3s ease;
+    transition: opacity 0.3s ease;
     outline: none;
 }
 
-.hero-button:hover {
-    background-color: #ebf8ed;
-    color: #030a06;
-}
-
+.hero-button:hover,
 .hero-button:focus {
-    border: none;
-
+    opacity: 0.5;
 }
+
 
 .hero-container-img {
     overflow: hidden;
