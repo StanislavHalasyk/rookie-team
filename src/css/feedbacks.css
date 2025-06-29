@@ -61,28 +61,23 @@
 }
 
 @media screen and (min-width: 768px) {
-  .feedbacks {
-    padding: 96px 0;
-  }
-
   .feedbacks-list {
-    flex-direction: row;
-    flex-wrap: wrap;
     gap: 32px;
-    justify-content: center;
+    padding: 64px 32px;
   }
 
   .feedbacks-item {
-    flex-basis: calc((100% - 24px) / 2);
+    flex-basis: calc((100% - 32px) / 2);
   }
 }
 
 @media screen and (min-width: 1158px) {
   .feedbacks-list {
     gap: 24px;
+    padding: 64px 0;
   }
 
   .feedbacks-item {
-    flex-basis: calc((100% - 48px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
   }
 }
