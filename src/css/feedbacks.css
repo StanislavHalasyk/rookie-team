@@ -37,11 +37,13 @@
 
 .feedbacks-text {
   font-family: 'Comfortaa', sans-serif;
-  margin-bottom: 12px;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #2e2f42;
-  max-width: 264px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #030a06;
+  max-width: 310px;
+  margin-bottom: 16px; /* або як у тебе в макеті */
 }
 
 .feedbacks-author {
