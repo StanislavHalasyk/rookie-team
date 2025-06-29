@@ -1,0 +1,170 @@
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 320px;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+
+.assortment {
+  padding: 32px 0;
+  background-color: #ebf8ed;
+}
+
+.assortment-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #030a06;
+  margin-bottom: 32px;
+}
+
+.assortment-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.assortment-item {
+  max-width: 288px;
+  /* height: 345px; */
+  width: 100%;
+}
+
+.assortment-image {
+  display: block;
+  border-radius: 32px;
+  width: 288px;
+  height: 345.6px;
+  object-fit: cover;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 16px;
+}
+
+.assortment-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  color: #030a06;
+}
+
+.assortment-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  color: #030a06;
+  margin-bottom: 8px;
+}
+
+.assortment-price {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+  color: #030a06;
+  margin-bottom: 16px;
+}
+
+.assortment-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  border: 1px solid #030a06;
+  border-radius: 6px;
+  padding: 8px 20px;
+  width: 288px;
+  height: 40px;
+  background-color: #ebf8ed;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    width: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0 auto;
+  }
+
+  .assortment {
+    padding: 64px 0;
+  }
+
+  .assortment-list {
+    padding-left: 0;
+    padding-right: 0;
+    gap: 24px;
+    justify-content: space-between;
+  }
+
+  .assortment-item {
+    width: calc((100% - 24px) / 2);
+    box-sizing: border-box;
+  }
+
+  .assortment-image {
+    width: 340px;
+    height: 408px;
+    max-width: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    width: 100%;
+    padding-left: 64px;
+    padding-right: 64px;
+    margin: 0 auto;
+  }
+
+  .assortment-image {
+    height: 371px;
+    width: 310px;
+    max-width: none;
+  }
+
+  .assortment-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+
+  .assortment-btn {
+    width: 310px;
+  }
+}
