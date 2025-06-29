@@ -22,7 +22,7 @@
     text-align: center;
     color: #fff;
 
-    padding-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 .about-subtitle {
@@ -34,7 +34,7 @@
     text-align: center;
     color: #fff;
 
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .about-text {
@@ -51,11 +51,11 @@
     }
 
     .about-title {
-        padding-bottom: 16px;
+        margin-bottom: 16px;
     }
 
     .about-subtitle {
-        padding-bottom: 24px;
+        margin-bottom: 24px;
     }
 
     .about-text {
@@ -76,8 +76,8 @@
     .about {
         background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/about/about-desctop-min.jpg);
         max-width: 1440px;
-        padding-top: 112px;
-        padding-bottom: 94px;
+        margin-top: 112px;
+        margin-bottom: 94px;
     }
 
     .about-subtitle {
