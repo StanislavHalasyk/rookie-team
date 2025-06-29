@@ -14,11 +14,11 @@
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  justify-content: center;
+  padding: 32px 16px;
 }
 
 .feedbacks-item {
-  border-radius: 8px;
+  flex-basis: 100%;
 }
 
 .feedbacks-rating {
