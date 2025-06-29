@@ -75,11 +75,15 @@
 
 @media screen and (min-width: 1158px) {
   .feedbacks-list {
-    gap: 24px;
-    padding: 64px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* або залиш gap */
+    align-items: stretch; /* вирівнює по висоті */
+    gap: 40px; /* як на макеті */
   }
 
   .feedbacks-item {
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 120px) / 4); /* 4 картки, 3 gaps по 40px = 120px */
+    max-width: 310px;
   }
 }
