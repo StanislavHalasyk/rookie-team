@@ -68,19 +68,21 @@
   .feedbacks-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 32px;
     justify-content: center;
   }
 
   .feedbacks-item {
     flex-basis: calc((100% - 24px) / 2);
-    text-align: left;
   }
 }
 
 @media screen and (min-width: 1158px) {
+  .feedbacks-list {
+    gap: 24px;
+  }
+
   .feedbacks-item {
     flex-basis: calc((100% - 48px) / 4);
-    gap: 24px;
   }
 }
