@@ -37,13 +37,11 @@
 
 .feedbacks-text {
   font-family: 'Comfortaa', sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.4;
-  letter-spacing: 0.01em;
-  color: #030a06;
-  max-width: 310px;
-  margin-bottom: 16px; /* або як у тебе в макеті */
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  max-width: 264px;
 }
 
 .feedbacks-author {
@@ -75,15 +73,11 @@
 
 @media screen and (min-width: 1158px) {
   .feedbacks-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; /* або залиш gap */
-    align-items: stretch; /* вирівнює по висоті */
-    gap: 40px; /* як на макеті */
+    gap: 24px;
+    padding: 64px 0;
   }
 
   .feedbacks-item {
-    flex-basis: calc((100% - 120px) / 4); /* 4 картки, 3 gaps по 40px = 120px */
-    max-width: 310px;
+    flex-basis: calc((100% - 72px) / 4);
   }
 }
