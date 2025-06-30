@@ -30,9 +30,12 @@
 }
 
 .icon-logo:hover,
-.icon-logo:focus {
+.icon-logo:focus,
+.logo-link:hover,
+.logo-link:focus {
     fill: var(--color-neutral-darkest);
-    color: var(--color-white); }
+    color: var(--color-white);
+}
 
 .nav-list,
 .contact-list {
