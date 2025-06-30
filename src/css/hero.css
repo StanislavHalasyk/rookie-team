@@ -40,7 +40,6 @@
   background-color: #030a06;
   background-repeat: no-repeat;
 
-<<<<<<< HEAD
   border-radius: 6px;
   justify-content: center;
   align-items: center;
@@ -62,29 +61,6 @@
 .hero-button:active {
   background-color: #113916;
   opacity: 0.6;
-=======
-    border-radius: 6px;
-    justify-content: center;
-    align-items: center;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #fff;
-    cursor: pointer;
-    border: 1px solid #030a06;
-    transition: opacity 0.3s ease;
-    outline: none;
-}
-
-.hero-button:hover,
-.hero-button:focus {
-    opacity: 0.5;
-}
-
-.hero-button:active {
-    background-color: #113916;
-    opacity: 0.6;
->>>>>>> 1032d029c8c9d8c38b46ac61cc55381bc9ee4e3c
 }
 
 .hero-container-img {
