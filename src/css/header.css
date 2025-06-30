@@ -10,18 +10,13 @@
 }
 
 .page-header {
+    position: relative;
     background-color: var(--color-scheme-2-background);
 }
 
 .page-header-container {
-    position: relative;
     display: block;
-    min-width: 320px;
-}
 
-.logo-burger {
-    position: absolute;
-    top: 25px;
 }
 
 .logo-link {
@@ -44,12 +39,13 @@
     display: none;
 }
 
+
 .btn-burger {
     position: absolute;
     top: 16px;
-        right: 20px;
-        width: 32px;
-        height: 32px;
+    right: 16px;
+    width: 32px;
+    height: 32px;
     cursor: pointer;
 }
 
@@ -79,7 +75,6 @@
     pointer-events: auto;
     display: block;
     z-index: 1000;
-    padding: 24px 16px;
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 
     0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 
@@ -87,29 +82,29 @@
 }
 
 .burger-menu-container {
-    padding: 24px;
-    background-color: var(--color-scheme-2-background);
-}
-
-.burger-menu-header {
+    position: relative;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-scheme-2-background);
+    padding: 0 16px;
 }
 
 .close_button {
     position: absolute;
         top: 25px;
         right: 25px;
-        width: 15px;
-        height: 15px;
         fill: var(--color-scheme-2-text);
-        border: 1px solid rgba(0, 0, 0, 0.1);
         cursor: pointer;
         padding: 0;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             border 250ms cubic-bezier(0.4, 0, 0.2,1);
     background: transparent;
+}
+
+.icon-close {
+    width: 15px;
+    height: 15px;
 }
 
 .nav-list-burger {
@@ -130,12 +125,16 @@
 
 
 .nav-list-burger a:hover,
-.nav-list-burger a:focus {
+.nav-list-burger a:focus,
+.contact-list-burger a:hover,
+.contact-list-burger a:focus {
     color: var(--color-white);
     background: var(--color-neutral-darkest);
 }
 
-.contact-list-burger a {
+.contact-list-burger a,
+.contact-list-burger {
+    gap: 16px;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
@@ -146,7 +145,7 @@
 }
 
 /* Desktop styles */
-@media screen and (min-width: 768px) and (max-width: 1439.98px) {
+@media screen and (min-width: 768px) and (max-width: 1439.99px) {
 
     .page-header-container {
         display: block;
@@ -162,8 +161,8 @@
 
         .btn-burger {
             position: absolute;
-            top: 20;
-            right: 28px;
+            top: 20px;
+            right: 45px;
             width: 16px;
             height: 12px;
         
@@ -194,13 +193,11 @@
         line-height: 160%;
         color: var(--color-scheme-2-text);
     }
-    .nav-item a {
-        color: var(--text-color);
-        text-decoration: none;
-        font-weight: 500;
-    }
-    .nav-item a:hover,
-    .nav-item a:focus {
+
+    .nav-list:focus,
+    .nav-list:hover,
+    .contact-list:focus,
+    .contact-list:hover {
         color: var(--color-white);
         background: var(--color-neutral-darkest);
     }
@@ -216,6 +213,7 @@
         line-height: 160%;
         color: var(--color-scheme-2-text);
     }
+    
     .btn-burger,
     .burger-menu {
         display: none;
