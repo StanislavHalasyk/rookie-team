@@ -1,7 +1,7 @@
 .gallery-section {
     text-align: center;
-        padding-top: 32px;
-        padding-bottom: 32px;
+    padding-top: 32px;
+ padding-bottom: 32px;
 }
 .gallary-title {
     font-weight: 700;
@@ -52,6 +52,9 @@
 }
 
 @media screen and (min-width: 768px) {
+    .gallary-title { 
+        margin-bottom: 24px;
+    }
     .gallery-section {
             padding-top: 64px;
             padding-bottom: 64px; 
