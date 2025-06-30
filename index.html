@@ -25,8 +25,8 @@
     <link rel="stylesheet" crossorigin href="/rookie-team/assets/index-DTDd_kLJ.css">
   </head>
   <body>
-    <header>
-      <header class="page-header">
+    <header id="index">
+      <header class="page-header" id="header">
   <div class="container page-header-container">
     <button
       type="button"
@@ -38,7 +38,7 @@
         <use href="/rookie-team/assets/sprite-C-fnpS__.svg#icon-burger"></use>
       </svg>
     </button>
-    <a href="src/index.html" class="logo-link">
+    <a href="src/#index" class="logo-link">
       <svg class="icon-logo" width="84" height="36">
         <use href="/rookie-team/assets/sprite-C-fnpS__.svg#icon-logo"></use>
       </svg>
@@ -47,34 +47,22 @@
     <nav class="nav-header">
       <ul class="nav-list">
         <li class="nav-item">
-          <a class="nav-header-list-link" href="./partials/about.html"
-            >Про нас</a
-          >
+          <a class="nav-header-list-link" href="/#about">Про нас</a>
         </li>
         <li class="nav-item">
-          <a class="nav-header-list-link" href="./partials/advantages.html"
-            >Переваги</a
-          >
+          <a class="nav-header-list-link" href="/#advantages">Переваги</a>
         </li>
         <li class="nav-item">
-          <a class="nav-header-list-link" href="./partials/assortment.html"
-            >Асортимент</a
-          >
+          <a class="nav-header-list-link" href="/#assortment">Асортимент</a>
         </li>
         <li class="nav-item">
-          <a class="nav-header-list-link" href="./partials/gallery.html"
-            >Галерея</a
-          >
+          <a class="nav-header-list-link" href="/#gallery">Галерея</a>
         </li>
         <li class="nav-item">
-          <a class="nav-header-list-link" href="./partials/feedbacks.html"
-            >Відгуки</a
-          >
+          <a class="nav-header-list-link" href="/#feedbacks">Відгуки</a>
         </li>
         <li class="nav-item">
-          <a class="nav-header-list-link" href="./partials/footer.html"
-            >Контакти</a
-          >
+          <a class="nav-header-list-link" href="/#about">Контакти</a>
         </li>
       </ul>
     </nav>
@@ -94,7 +82,11 @@
   <div class="burger-menu" data-menu>
     <div class="burger-menu-container">
       <div class="burger-menu-header">
-        <button class="close_button burger-menu-close" type="button">
+        <button
+          class="close_button burger-menu-close"
+          href="/#index"
+          type="button"
+        >
           <svg class="icon-close" width="24" height="24">
             <use href="/rookie-team/assets/sprite-C-fnpS__.svg#icon-x"></use>
           </svg>
@@ -107,21 +99,21 @@
       </div>
       <nav class="nav-burger">
         <ul class="nav-list-burger">
-          <li class="nav-item"><a href="./partials/about.html">Про нас</a></li>
+          <li class="nav-item"><a href="/#about">Про нас</a></li>
           <li class="nav-item">
-            <a href="./partials/advantages.html">Переваги</a>
+            <a href="/#advantages">Переваги</a>
           </li>
           <li class="nav-item">
-            <a href="./partials/assortment.html">Асортимент</a>
+            <a href="/#assortment">Асортимент</a>
           </li>
           <li class="nav-item">
-            <a href="./partials/gallery.html">Галерея</a>
+            <a href="/#gallery">Галерея</a>
           </li>
           <li class="nav-item">
-            <a href="./partials/feedbacks.html">Відгуки</a>
+            <a href="/#feedbacks">Відгуки</a>
           </li>
           <li class="nav-item">
-            <a href="./partials/footer.html">Контакти</a>
+            <a href="/#about">Контакти</a>
           </li>
         </ul>
       </nav>
@@ -139,7 +131,7 @@
 
     </header>
     <main>
-      <section class="hero">
+      <section class="hero" id="hero">
   <div class="hero-ecotone container">
     <div class="hero-ecotone-text-btn">
       <div class="hero-title">
@@ -183,7 +175,7 @@
   </div>
 </section>
 
-      <section class="about">
+      <section class="about" id="about">
   <div class="container about-container">
     <h2 class="about-title">Природність</h2>
     <h3 class="about-subtitle">Турбота про планету</h3>
@@ -194,7 +186,7 @@
   </div>
 </section>
 
-      <section class="advantages">
+      <section class="advantages" id="advantages">
   <div class="container advantages-container">
     <p class="advantages-subtitle">Переваги</p>
     <h2 class="advantages-title">Чому обрати нас?</h2>
@@ -286,7 +278,7 @@
   </div>
 </section>
 
-      <section class="assortment">
+      <section class="assortment" id="assortment">
   <div class="container container-assortment">
     <h2 class="assortment-title">Наші сумки</h2>
     <ul class="assortment-list">
@@ -527,60 +519,99 @@
 
 
 
-      <section class="gallery-section">
-    <div class="container">
-    <h2 class="gallary-title">Галерея  зображень</h2>
+      <section class="gallery-section" id="gallery">
+  <div class="container">
+    <h2 class="gallary-title">Галерея зображень</h2>
     <p class="gallary-item">EcoTotes у повсякденному житті</p>
     <ul class="gallery-grid">
-        <li class="gallery-list">
-            <picture>
-                <source media="(min-width:1440px )"
-                    srcset="/rookie-team/assets/gallery-desctop-2-min-Cw0Nj9L-.jpg 1x, /rookie-team/assets/gallery-desctop-2@2x-min-DdWJV1ev.jpg 2x">
-                <source media="(min-width: 768px)"
-                    srcset="/rookie-team/assets/gallery-tablet-2-min-DPzq3L9B.jpg 1x, /rookie-team/assets/gallery-tablet-2@2x-min-DUF1CXLA.jpg 2x">
-                <source media="(max-width:768px)"
-                    srcset="/rookie-team/assets/gallery-mobile-2-min-CKCXE84M.jpg 1x, /rookie-team/assets/gallery-mobile-2@2x-min-DiIUIQju.jpg 2x">
-                <img class="gallary-photo" src="/rookie-team/assets/gallery-desctop-2-min-Cw0Nj9L-.jpg" alt="Сумка на стільці з кавою">
-            </picture>
-        </li>
-        <li class="gallery-list">
-            <picture>
-                <source media="(min-width:1440px )"
-                    srcset="/rookie-team/assets/gallery-desctop-3-min-D1aUo_6i.jpg 1x, /rookie-team/assets/gallery-desctop-3@2x-min-DfBqOmGd.jpg 2x">
-                <source media="(min-width: 768px)"
-                    srcset="/rookie-team/assets/gallery-tablet-3-min-1rfYiNNd.jpg 1x, /rookie-team/assets/gallery-tablet-3@2x-min-CTEpqnGI.jpg 2x">
-                <source media="(max-width:768px)"
-                    srcset="/rookie-team/assets/gallery-mobile-3-min-B2PIZrGh.jpg 1x, /rookie-team/assets/gallery-mobile-3@2x-min-DktSX3Jx.jpg 2x">
-                <img class="gallary-photo" src="/rookie-team/assets/gallery-desctop-3-min-D1aUo_6i.jpg"
-                    alt="Чоловік з еко-сумкою у місті">
-            </picture>
-        </li>
-        <li class="gallery-list">
-            <picture>
-                <source media="(min-width:1440px )"
-                    srcset="/rookie-team/assets/gallery-desctop-4-min-MDehS3B4.jpg 1x, /rookie-team/assets/gallery-desctop-4@2x-min-DuRU-4Nw.jpg 2x">
-                <source media="(min-width: 768px)"
-                    srcset="/rookie-team/assets/gallery-tablet-4-min-BZqgYGr1.jpg 1x, /rookie-team/assets/gallery-tablet-4@2x-min-Crdys2x7.jpg 2x">
-                <source media="(max-width:768px)"
-                    srcset="/rookie-team/assets/gallery-mobile-4-min-BeQQA6Xd.jpg 1x, /rookie-team/assets/gallery-mobile-4@2x-min-BLsOe4uP.jpg 2x">
-                <img class="gallary-photo" src="/rookie-team/assets/gallery-desctop-4-min-MDehS3B4.jpg"
-                    alt="Людина з сумкою з логотипом переробки">
-            </picture>
-        </li>
-        <li class="gallery-list">
-            <picture>
-                <source media="(min-width:1440px )"
-                    srcset="/rookie-team/assets/gallery-desctop-1-min-BGUk34qy.jpg 1x, /rookie-team/assets/gallery-desctop-1@2x-min-CtQrSDQH.jpg 2x">
-                <source media="(min-width: 768px)"
-                    srcset="/rookie-team/assets/gallery-tablet-1-min-iswNbT7h.jpg 1x, /rookie-team/assets/gallery-tablet-1@2x-min-CXtR9c6X.jpg 2x">
-                <source media="(max-width:768px)"
-                    srcset="/rookie-team/assets/gallery-mobile-1-min-CxW5Nakm.jpg 1x, /rookie-team/assets/gallery-mobile-1@2x-min-aHHbiTi6.jpg 2x">
-                <img class="gallary-photo" src="/rookie-team/assets/gallery-desctop-1-min-BGUk34qy.jpg" alt="Жінка з сумкою з овочкам">
-            </picture>
-        </li>
+      <li class="gallery-list">
+        <picture>
+          <source
+            media="(min-width:1440px )"
+            srcset="/rookie-team/assets/gallery-desctop-2-min-Cw0Nj9L-.jpg 1x, /rookie-team/assets/gallery-desctop-2@2x-min-DdWJV1ev.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/rookie-team/assets/gallery-tablet-2-min-DPzq3L9B.jpg 1x, /rookie-team/assets/gallery-tablet-2@2x-min-DUF1CXLA.jpg 2x"
+          />
+          <source
+            media="(max-width:768px)"
+            srcset="/rookie-team/assets/gallery-mobile-2-min-CKCXE84M.jpg 1x, /rookie-team/assets/gallery-mobile-2@2x-min-DiIUIQju.jpg 2x"
+          />
+          <img
+            class="gallary-photo"
+            src="/rookie-team/assets/gallery-desctop-2-min-Cw0Nj9L-.jpg"
+            alt="Сумка на стільці з кавою"
+          />
+        </picture>
+      </li>
+      <li class="gallery-list">
+        <picture>
+          <source
+            media="(min-width:1440px )"
+            srcset="/rookie-team/assets/gallery-desctop-3-min-D1aUo_6i.jpg 1x, /rookie-team/assets/gallery-desctop-3@2x-min-DfBqOmGd.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/rookie-team/assets/gallery-tablet-3-min-1rfYiNNd.jpg 1x, /rookie-team/assets/gallery-tablet-3@2x-min-CTEpqnGI.jpg 2x"
+          />
+          <source
+            media="(max-width:768px)"
+            srcset="/rookie-team/assets/gallery-mobile-3-min-B2PIZrGh.jpg 1x, /rookie-team/assets/gallery-mobile-3@2x-min-DktSX3Jx.jpg 2x"
+          />
+          <img
+            class="gallary-photo"
+            src="/rookie-team/assets/gallery-desctop-3-min-D1aUo_6i.jpg"
+            alt="Чоловік з еко-сумкою у місті"
+          />
+        </picture>
+      </li>
+      <li class="gallery-list">
+        <picture>
+          <source
+            media="(min-width:1440px )"
+            srcset="/rookie-team/assets/gallery-desctop-4-min-MDehS3B4.jpg 1x, /rookie-team/assets/gallery-desctop-4@2x-min-DuRU-4Nw.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/rookie-team/assets/gallery-tablet-4-min-BZqgYGr1.jpg 1x, /rookie-team/assets/gallery-tablet-4@2x-min-Crdys2x7.jpg 2x"
+          />
+          <source
+            media="(max-width:768px)"
+            srcset="/rookie-team/assets/gallery-mobile-4-min-BeQQA6Xd.jpg 1x, /rookie-team/assets/gallery-mobile-4@2x-min-BLsOe4uP.jpg 2x"
+          />
+          <img
+            class="gallary-photo"
+            src="/rookie-team/assets/gallery-desctop-4-min-MDehS3B4.jpg"
+            alt="Людина з сумкою з логотипом переробки"
+          />
+        </picture>
+      </li>
+      <li class="gallery-list">
+        <picture>
+          <source
+            media="(min-width:1440px )"
+            srcset="/rookie-team/assets/gallery-desctop-1-min-BGUk34qy.jpg 1x, /rookie-team/assets/gallery-desctop-1@2x-min-CtQrSDQH.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/rookie-team/assets/gallery-tablet-1-min-iswNbT7h.jpg 1x, /rookie-team/assets/gallery-tablet-1@2x-min-CXtR9c6X.jpg 2x"
+          />
+          <source
+            media="(max-width:768px)"
+            srcset="/rookie-team/assets/gallery-mobile-1-min-CxW5Nakm.jpg 1x, /rookie-team/assets/gallery-mobile-1@2x-min-aHHbiTi6.jpg 2x"
+          />
+          <img
+            class="gallary-photo"
+            src="/rookie-team/assets/gallery-desctop-1-min-BGUk34qy.jpg"
+            alt="Жінка з сумкою з овочкам"
+          />
+        </picture>
+      </li>
     </ul>
-</div>
+  </div>
 </section>
+
       <section class="feedbacks section" id="feedbacks">
   <div class="container">
     <h2 class="feedbacks-title">Що говорять наші клієнти</h2>
@@ -683,7 +714,7 @@
   </div>
 </section>
 
-      <section class="support">
+      <section class="support" id="support">
   <div class="container support-container">
     <div class="support-container-forms">
       <h2 class="support-title">Залишились питання? Зв'яжіться з нами!</h2>
@@ -737,12 +768,12 @@
 
     </main>
     <footer>
-      <section class="footer">
+      <section class="footer" id="footer">
   <h2 class="visually-hidden">Footer block</h2>
   <div class="container footer-container">
     <div class="footer-nav">
       <div class="footer-logo-box">
-        <a class="footer-logo-link" href="/index.html">
+        <a class="footer-logo-link" href="/src/#index">
           <svg class="logo-icon">
             <use href="/rookie-team/assets/sprite-C-fnpS__.svg#icon-logo"></use>
           </svg>
@@ -751,28 +782,22 @@
 
       <ul class="footer-list">
         <li class="footer-list-item">
-          <a href="/partials/about.html" class="footer-list-link">Про нас</a>
+          <a href="/#about" class="footer-list-link">Про нас</a>
         </li>
         <li class="footer-list-item">
-          <a href="/partials/advantages.html" class="footer-list-link"
-            >Переваги</a
-          >
+          <a href="/#advantages" class="footer-list-link">Переваги</a>
         </li>
         <li class="footer-list-item">
-          <a href="/partials/assortment.html" class="footer-list-link"
-            >Асортимент</a
-          >
+          <a href="/#assortment" class="footer-list-link">Асортимент</a>
         </li>
         <li class="footer-list-item">
-          <a href="/partials/gallery.html" class="footer-list-link">Галерея</a>
+          <a href="/#gallery" class="footer-list-link">Галерея</a>
         </li>
         <li class="footer-list-item">
-          <a href="/partials/feedbacks.html" class="footer-list-link"
-            >Відгуки</a
-          >
+          <a href="/#feedbacks" class="footer-list-link">Відгуки</a>
         </li>
         <li class="footer-list-item">
-          <a href="/partials/footer.html" class="footer-list-link">Контакти</a>
+          <a href="/#about" class="footer-list-link">Контакти</a>
         </li>
       </ul>
       <ul class="footer-social-list">
