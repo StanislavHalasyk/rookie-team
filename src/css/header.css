@@ -19,6 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 14px 20px;
 
 }
 
@@ -47,15 +48,13 @@
     background: transparent;
     border: none;
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: 32px;
     height: 32px;
     cursor: pointer;
   }
 
-icon-burger {
-    display: block;
+.icon-burger {
+    display: flex;
     background-color: var(--color-scheme-2-background);
 }
 
@@ -92,7 +91,7 @@ icon-burger {
     flex-direction: column;
     justify-content: space-between;
     background-color: var(--color-scheme-2-background);
-    padding: 0 16px;
+
     
 }
 
@@ -101,12 +100,14 @@ icon-burger {
     justify-content: space-between;
     align-items: center;
 
+
 }
 
 .icon-logo-burger {
     display: block;
     width: 84px;
     height: 36px;
+    padding-bottom: 14px;
 }
 
 .close_button {
@@ -125,7 +126,7 @@ icon-burger {
 }
 
 .nav-list-burger {
-    padding: 0;
+    padding-top: 32px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -168,6 +169,10 @@ icon-burger {
 
 /* Desktop styles */
 @media screen and (min-width: 768px) and (max-width: 1439.99px) {
+    .btn-burger,
+    .burger-menu {
+        display: none;
+}
 
     .page-header-container {
         display: flex;
@@ -189,8 +194,13 @@ icon-burger {
         
         }
 
+        .icon-logo-burger {
+            padding-bottom: 14px;
+        }
+
         .nav-list-burger {
             margin-bottom: 32px;
+            padding-top: 32px;
         }
 
 
@@ -215,16 +225,20 @@ icon-burger {
         color: var(--color-scheme-2-text);
     }
 
-        .icon-logo {
-            width: 106px;
-            height: 45px;   }
-
-    .nav-list:focus,
-    .nav-list:hover,
-    .contact-list:focus,
-    .contact-list:hover {
+    .icon-logo {
+        width: 106px;
+        height: 46px;   }
+        .nav-list li a:hover,
+        .nav-list li a:focus,
+        .contact-list li a:hover,
+        .contact-list li a:focus {
         color: var(--color-white);
         background: var(--color-neutral-darkest);
+}
+
+    .nav-list li a,
+    .contact-list li a {
+        padding: 10px 0;
     }
     .contact-list {
         display: flex;
@@ -239,8 +253,4 @@ icon-burger {
         color: var(--color-scheme-2-text);
     }
     
-    .btn-burger,
-    .burger-menu {
-        display: none;
-    }
 }
