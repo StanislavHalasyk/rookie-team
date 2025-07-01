@@ -30,6 +30,8 @@
 
 .assortment-item {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .assortment-image {
@@ -48,6 +50,14 @@
   line-height: 1.6;
   text-align: center;
   color: #030a06;
+}
+
+.assortment-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .assortment-description {
@@ -141,16 +151,16 @@
   }
 
   .assortment-image-indent {
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
   }
 
   .assortment-price-indent {
     margin-bottom: 16px;
   }
 
-  .tabl-price-indent {
+  /* .tabl-price-indent {
     margin-bottom: 38px;
-  }
+  } */
 
   .assortment-btn {
     width: 340px;
@@ -180,13 +190,13 @@
     max-width: none;
   }
 
-  .assortment-image-indent {
+  /* .assortment-image-indent {
     margin-bottom: 27px;
-  }
+  } */
 
-  .assortment-price-indent {
+  /* .assortment-price-indent {
     margin-bottom: 27px;
-  }
+  } */
 
   .assortment-item {
     width: calc((100% - 3 * 24px) / 4);
