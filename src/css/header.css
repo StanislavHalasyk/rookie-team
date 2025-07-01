@@ -10,47 +10,52 @@
 }
 
 .page-header {
-    position: relative;
     background-color: var(--color-scheme-2-background);
 }
 
 .page-header-container {
-    display: block;
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
-.logo-link {
-    padding: 14px 0;
-
-}
 
 .icon-logo {
+    display: flex;
     width: 84px;
     height: 36px;
+
 }
 
 .icon-logo:hover,
 .icon-logo:focus{
     fill: var(--color-neutral-darkest);
     stroke: var(--color-white);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-list,
+.nav-header .nav-list,
 .contact-list {
     display: none;
 }
 
-
 .btn-burger {
-    position: absolute;
-    top: 16px;
-    right: 16px;
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 32px;
     height: 32px;
     cursor: pointer;
-}
+  }
 
-.icon-burger {
+icon-burger {
+    display: block;
     background-color: var(--color-scheme-2-background);
 }
 
@@ -83,18 +88,29 @@
 }
 
 .burger-menu-container {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--color-scheme-2-background);
+    padding: 0 16px;
+    
+}
+
+.burger-menu-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-scheme-2-background);
-    padding: 0 16px;
+
+}
+
+.icon-logo-burger {
+    display: block;
+    width: 84px;
+    height: 36px;
 }
 
 .close_button {
-    position: absolute;
-        top: 25px;
-        right: 25px;
+    display: block;
         fill: var(--color-scheme-2-text);
         cursor: pointer;
         padding: 0;
@@ -110,9 +126,9 @@
 
 .nav-list-burger {
     padding: 0;
-    margin-top: 32px;
     display: flex;
     flex-direction: column;
+    justify-content: start;
     gap: 32px;
     font-family: var(--font-family);
     font-weight: 400;
@@ -120,7 +136,7 @@
     line-height: 160%;
     color: var(--color-scheme-2-text);
     text-align: left;
-    margin-bottom: 64px;
+    margin-bottom: 96px;
     text-decoration: none;
 }
 
@@ -131,10 +147,15 @@
 .contact-item a:focus {
     color: var(--color-white);
     background: var(--color-neutral-darkest);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-list-burger a,
 .contact-list-burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     gap: 16px;
     font-family: var(--font-family);
     font-weight: 400;
@@ -149,12 +170,11 @@
 @media screen and (min-width: 768px) and (max-width: 1439.99px) {
 
     .page-header-container {
-        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    .icon-logo {
-        margin-left: 14px;
-    }
     .burger-menu-container {
         padding: 32px;
         max-width: 768px;
