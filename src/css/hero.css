@@ -28,7 +28,11 @@
   margin-bottom: 24px;
 }
 
-.hero-explain-container {
+/* .hero-explain-container {
+  margin-bottom: 24px;
+} */
+
+.hero-ecotone-text-btn {
   margin-bottom: 24px;
 }
 
@@ -83,7 +87,7 @@
   .hero-ecotone-text-btn {
     display: flex;
     gap: 24px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 
   .hero-title {

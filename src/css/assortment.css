@@ -41,7 +41,7 @@
   height: 346px;
   object-fit: cover;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .assortment-subtitle {
@@ -58,6 +58,7 @@
   align-items: center;
   margin-top: auto;
   margin-bottom: auto;
+  padding: 16px 0;
 }
 
 .assortment-description {
@@ -75,7 +76,7 @@
   line-height: 1.6;
   text-align: center;
   color: #030a06;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .assortment-btn {
@@ -154,9 +155,9 @@
     /* margin-bottom: 16px; */
   }
 
-  .assortment-price-indent {
+  /* .assortment-price-indent {
     margin-bottom: 16px;
-  }
+  } */
 
   /* .tabl-price-indent {
     margin-bottom: 38px;
