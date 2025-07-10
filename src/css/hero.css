@@ -1,5 +1,5 @@
 .hero {
-  padding-top: 64px;
+  padding-top: 128px;
   padding-bottom: 64px;
   display: flex;
   flex-direction: column;
@@ -78,7 +78,7 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding-top: 104px;
+    padding-top: 96px;
   }
 
   .hero-ecotone {
@@ -122,6 +122,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .hero {
+    padding-top: 104px;
+  }
+
   .hero-ecotone {
     display: flex;
     flex-wrap: wrap;
