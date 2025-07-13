@@ -9,3 +9,10 @@ burgerBtn.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
   menu.classList.remove('is-open');
 });
+const menuLinks = menu.querySelectorAll('a');
+menuLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    menu.classList.remove('is-open');
+  });
+});
+ 
